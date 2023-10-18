@@ -97,10 +97,6 @@ header h1{
     border-right: none;
 }
 
-#translationTable tbody tr:last-child td {
-    border-bottom: none;
-}
-
 #translationTable tbody td {
     padding: 0.4em 0.5em 0.5em 0.5em;
     border-right: 1px solid #b4b3b3;
@@ -116,8 +112,11 @@ header h1{
     outline-style: none;
     font-size: 0.9em;
     letter-spacing: 0.025em;
+    margin-top: 0.2em;
     margin-left: 0.4em;
-    padding: 0.2em 0.5em 0.23em 0.5em;
+    padding-top: 0.3em;
+    padding-bottom: 0.35em;
+    padding-right: 0.5em;
     max-width: 49%;
     display: inline-block;
 }
