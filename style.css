@@ -180,3 +180,28 @@ h2 {
     background-color: rgb(221, 221, 227);
     color: #323442;
 }
+
+/* media queries */
+    @media (max-width: 768px) {
+        #skInput,
+        #enInput {
+            min-width: 80%; 
+            max-width: 100%;
+        }
+
+        #saveButton,
+        #editButton,
+        #deleteButton {
+            min-width: 80%;
+        }
+    }
+
+    #translationTable {
+        max-width: 35%;
+    }
+
+    @media (max-width: 768px) {
+        #translationTable {
+            max-width: 100%;
+        }
+    }
